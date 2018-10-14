@@ -10,8 +10,8 @@ html {
 }
 
 body {
-  padding: 2em;
-  display:block;
+  display: block;
+  margin:auto;
   text-align: center;
   background-color: #eee9de;
 }
@@ -33,13 +33,12 @@ h2 {
 p {
   font-family: 'Lato', sans-serif;
   margin-top: 1em;
-  font-weight: bold;
   text-align: left;
 }
 
 a {
   font-family: 'Lato', sans-serif;
-  float:left;
+  float: left;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
@@ -57,10 +56,12 @@ a {
 }
 
 img {
-  max-width: 25em;
+  width: 100%;
+  height: auto;
+  max-width: 25rem;
   text-align: center;
   background-color: #eee9de;
-  padding: 1em;
+  padding: .5em;
   display: inline-block;
   vertical-align: middle;
 }
