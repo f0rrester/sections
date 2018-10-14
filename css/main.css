@@ -11,7 +11,8 @@ html {
 
 body {
   padding: 2em;
-  margin: auto;
+  display:block;
+  text-align: center;
   background-color: #eee9de;
 }
 
@@ -38,6 +39,7 @@ p {
 
 a {
   font-family: 'Lato', sans-serif;
+  float:left;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
@@ -49,15 +51,16 @@ a {
   padding: .75em;
 }
 
-.btn :hover {
+.btn:hover {
   background-color: #666;
   text-decoration-color: #333;
 }
 
 img {
+  max-width: 25em;
+  text-align: center;
   background-color: #eee9de;
   padding: 1em;
   display: inline-block;
   vertical-align: middle;
-
 }
