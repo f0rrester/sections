@@ -1,28 +1,49 @@
 html {
-  background-color: #f2f1ed;
+  background-color: #eee9de;
   font-family: georgia, serif;
   line-height: 1.5;
 }
 
-h2, p, a {
+section {
+  padding: 2em 0em;
+}
+
+div {
   display:inline-block;
+  padding: .5em 1em;
+  max-width: 25em;
 }
 
 h2 {
-  font-family: 'Lato', sans-serif, bold;
-  displa
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin: 0em;
 }
 p {
   font-family: 'Lato', sans-serif;
+  margin: 1em 0em;
+  font-weight:bold;
 }
 a {
   font-family: 'Lato', sans-serif;
+  font-weight: bold;
   display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: .2em solid black;
+  border-radius: .5em;
+  padding: .4em;
 }
 
-image {
+a:hover {
   background-color: #666;
-  padding: 2em;
+  text-decoration:none;
+}
+
+img {
+  background-color: #eee9de;
+  padding: 1em;
   width: 100%;
+  max-width: 25em;
   display:inline-block;
 }
