@@ -11,7 +11,7 @@ html {
 
 body {
   display: block;
-  margin:auto;
+  margin: 1.5rem;
   text-align: center;
   background-color: #eee9de;
 }
@@ -24,26 +24,25 @@ div {
 }
 
 h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
   font-weight: bold;
   text-align: left;
-  margin-bottom: 1.5em;
+  margin: 0;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
-  margin-top: 1em;
+  font-family: Lato, sans-serif;
   text-align: left;
 }
 
 a {
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
   float: left;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
-  margin-top: 1.5em;
+  margin-top: 1em;
   color: black;
   border: .2em solid black;
   border-radius: .5em;
@@ -61,7 +60,7 @@ img {
   max-width: 25rem;
   text-align: center;
   background-color: #eee9de;
-  padding: .5em;
   display: inline-block;
   vertical-align: middle;
+  padding: .4em .75em .5em;
 }
