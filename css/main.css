@@ -16,6 +16,10 @@ body {
   background-color: #eee9de;
 }
 
+section {
+  padding-top: 2em;
+}
+
 div {
   display: inline-block;
   vertical-align: middle;
@@ -60,7 +64,7 @@ img {
   max-width: 25rem;
   text-align: center;
   background-color: #eee9de;
-  display: inline;
+  display: inline-block;
   vertical-align: middle;
-  padding: .4em .75em .5em;
+  padding: 1em;
 }
