@@ -35,7 +35,7 @@ section {
 img {
   width: 100%;
   text-align: left;
-  display: inline-block;
+  display: inline;
   vertical-align: middle;
   padding: 1em;
   max-width: 25em;
