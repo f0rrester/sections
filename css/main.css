@@ -1,12 +1,12 @@
 html {
   box-sizing: border-box;
+  background-color: #eee9de;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-  background-color: #eee9de;
-  font-family: georgia, serif;
-  line-height: 1.5;
 }
 
 body {
@@ -16,27 +16,41 @@ body {
   background-color: #eee9de;
 }
 
-section {
-  padding-top: 2em;
+h1 {
+  font-family: Lato, sans-serif;
 }
 
-div {
+.page {
+  text-align: left;
   display: inline-block;
   vertical-align: middle;
   padding: 1em;
   max-width: 25em;
 }
 
-h2 {
-  font-family: Lato, sans-serif;
-  font-weight: bold;
+section {
+  padding-top: 2em 0;
+}
+
+img {
+  width: 100%;
   text-align: left;
-  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1em;
+  max-width: 25em;
 }
 
 p {
-  font-family: Lato, sans-serif;
   text-align: left;
+  color: #666;
+  margin: 0 0 1.5rem;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: left;
+  margin: 0 0 1.5rem;
 }
 
 a {
@@ -60,11 +74,4 @@ a {
 
 img {
   width: 100%;
-  height: auto;
-  max-width: 25rem;
-  text-align: center;
-  background-color: #eee9de;
-  display: inline-block;
-  vertical-align: middle;
-  padding: 1em;
 }
