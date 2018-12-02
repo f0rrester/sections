@@ -58,9 +58,10 @@ h2 {
   float: left;
   text-align: center;
   font-weight: bold;
+  font-size: 1rem;
   text-decoration: none;
   display: inline-block;
-  margin-top: 1em;
+  margin-top: 0;
   color: black;
   border: .2em solid black;
   border-radius: .5em;
